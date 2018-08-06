@@ -1,0 +1,18 @@
+{
+	"name": "mapped-disposable",
+	"version": "v0.0.0",
+	"description": "Map-flavoured alternative to Atom's CompositeDisposable class.",
+	"keywords": ["atom", "disposable", "event-kit", "events", "callback"],
+	"author": "John Gardner <gardnerjohng@gmail.com>",
+	"license": "ISC",
+	"engines": {
+		"atom": "*"
+	},
+	"dependencies": {
+		"event-kit": "^2.5.0"
+	},
+	"devDependencies": {
+		"mocha": "*",
+		"chai": "*"
+	}
+}
