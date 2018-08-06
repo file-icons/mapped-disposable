@@ -1,7 +1,7 @@
 "use strict";
 
 const {expect} = require("chai");
-const {MappedDisposable} = require("../index.js");
+const MappedDisposable = require("../index.js");
 const {CompositeDisposable, Disposable} = require("event-kit");
 
 
