@@ -41,7 +41,7 @@ class MappedDisposable {
 	 * If passed no arguments, the method disposes of everything, rendering the
 	 * MappedDisposable instance completely inert. Future method calls do nothing.
 	 *
-	 * @param {...} [keys] - Keys to dispose
+	 * @param {...*} [keys] - Keys to dispose
 	 */
 	dispose(...keys){
 		if(this.disposed)
@@ -78,7 +78,7 @@ class MappedDisposable {
 	 * Key one or more disposables to an object.
 	 *
 	 * @param {*} key
-	 * @param {...} disposables
+	 * @param {...*} [disposables]
 	 */
 	add(key, ...disposables){
 		if(this.disposed)
@@ -98,7 +98,7 @@ class MappedDisposable {
 	 * MappedDisposable. Any disposables keyed to it are not disposed of.
 	 *
 	 * @param {*} key
-	 * @param {...} [disposables]
+	 * @param {...*} [disposables]
 	 */
 	remove(key, ...disposables){
 		if(this.disposed)
@@ -123,7 +123,7 @@ class MappedDisposable {
 	 * Alias of {@link MappedDisposable#remove}, included for parity with {@link Map} objects.
 	 *
 	 * @param {*} key
-	 * @param {...} [disposables]
+	 * @param {...*} [disposables]
 	 * @see {@link MappedDisposable#remove}
 	 */
 	delete(key, ...disposables){
@@ -153,7 +153,7 @@ class MappedDisposable {
 		return this.disposed
 			? 0
 			: this.disposables.size;
-	}	
+	}
 	
 	
 	/**
