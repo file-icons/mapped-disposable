@@ -8,10 +8,8 @@
 	"engines": {
 		"atom": "*"
 	},
-	"dependencies": {
-		"event-kit": "^2.5.0"
-	},
 	"devDependencies": {
+		"event-kit": "^2.5.0",
 		"mocha": "*",
 		"chai": "*"
 	}
