@@ -8,10 +8,9 @@ const {CompositeDisposable, Disposable} = "object" === typeof atom
 /**
  * Map-flavoured alternative to Atom's {@link CompositeDisposable} class.
  *
- * Geared towards Atom package developers, but compatible
- * with any project that uses the `event-kit` library.
+ * Geared towards Atom package developers, but compatible with any project
+ * that uses {@linkcode event-kit|https://npmjs.com/package/event-kit}.
  *
- * @see https://npmjs.com/package/event-kit
  * @class
  */
 class MappedDisposable {
@@ -20,7 +19,7 @@ class MappedDisposable {
 	 * Create a new instance, optionally with a list of keys and disposables.
 	 *
 	 * @example new MappedDisposable([ [key1, disp1], [key2, disp2] ]);
-	 * @param {*} [iterable]
+	 * @param {*} [iterable=null]
 	 * @constructor
 	 */
 	constructor(iterable = null){
@@ -75,7 +74,7 @@ class MappedDisposable {
 	
 	
 	/**
-	 * Key one or more disposables to an object.
+	 * Add one or more disposables to a key's disposables list.
 	 *
 	 * @param {*} key
 	 * @param {...*} [disposables]
@@ -92,7 +91,7 @@ class MappedDisposable {
 
 
 	/**
-	 * Remove a disposable from an object's disposables list.
+	 * Remove one or more disposables from a key's disposables list.
 	 *
 	 * If no disposables are passed, the object itself is removed from the
 	 * MappedDisposable. Any disposables keyed to it are not disposed of.
@@ -134,7 +133,7 @@ class MappedDisposable {
 	/**
 	 * Clear the contents of the MappedDisposable.
 	 *
-	 * Disposables keyed to objects are not disposed of.
+	 * Individual disposables are not disposed of.
 	 */
 	clear(){
 		if(this.disposed)
@@ -187,7 +186,7 @@ class MappedDisposable {
 	/**
 	 * Replace the disposable that's keyed to an object.
 	 *
-	 * A TypeError is thrown if the object lacks a `dispose` method.
+	 * A {@link TypeError} is thrown if the value argument lacks a `dispose` method.
 	 *
 	 * @param {*} key
 	 * @param {Disposable} value
@@ -203,7 +202,10 @@ class MappedDisposable {
 	}
 }
 
-
+/**
+ * Whether the instance has been irrevocably disposed of.
+ * @property {Boolean} disposed
+ */
 MappedDisposable.prototype.disposed = false;
 
 module.exports = MappedDisposable;
