@@ -9,8 +9,10 @@
 	"engines": {
 		"atom": "*"
 	},
+	"atomTestRunner": "atom-mocha",
 	"devDependencies": {
 		"event-kit": "^2.5.0",
+		"atom-mocha": "^2.0.5",
 		"mocha": "*",
 		"chai": "*"
 	}

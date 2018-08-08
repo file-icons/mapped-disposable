@@ -2,7 +2,9 @@
 
 const {expect} = require("chai");
 const MappedDisposable = require("../index.js");
-const {CompositeDisposable, Disposable} = require("event-kit");
+const {CompositeDisposable, Disposable} = "object" === typeof atom
+	? require("atom")
+	: require("event-kit");
 
 
 describe("MappedDisposable", () => {
