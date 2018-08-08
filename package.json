@@ -1,6 +1,6 @@
 {
 	"name": "mapped-disposable",
-	"version": "v1.0.0",
+	"version": "v1.0.1",
 	"files": ["index.js"],
 	"description": "Map-flavoured alternative to Atom's CompositeDisposable class.",
 	"keywords": ["atom", "disposable", "event-kit", "events", "callback"],
