@@ -11,9 +11,14 @@
 	},
 	"atomTestRunner": "atom-mocha",
 	"devDependencies": {
-		"event-kit": "^2.5.0",
 		"atom-mocha": "^2.0.5",
+		"event-kit": "^2.5.0",
+		"eslint": "^5.3.0",
 		"mocha": "*",
 		"chai": "*"
+	},
+	"scripts": {
+		"lint": "eslint .",
+		"test": "atom -t ./test/"
 	}
 }
