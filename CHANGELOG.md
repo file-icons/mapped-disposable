@@ -3,11 +3,12 @@ Change Log
 
 This project adheres to [Semantic Versioning](http://semver.org).
 
-[Staged]: https://github.com/file-icons/MappedDisposable/compare/v1.0.1...HEAD
+[Staged]: https://github.com/file-icons/MappedDisposable/compare/v1.0.2...HEAD
 
 
-[Staged]
+[v1.0.2](https://github.com/file-icons/MappedDisposable/releases/tag/v1.0.2)
 --------------------------------------------------------------------------------
+**September 14th, 2018**  
 * Added a change-log.
 * Fixed botched URL in `package.json` file.
 * Transferred repository to [`file-icons`][] org on GitHub.
