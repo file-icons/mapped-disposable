@@ -4,7 +4,7 @@
 	"files": ["index.js"],
 	"description": "Map-flavoured alternative to Atom's CompositeDisposable class.",
 	"keywords": ["atom", "disposable", "event-kit", "events", "callback"],
-	"repository": "https://Alhadis/MappedDisposable",
+	"repository": "https://github.com/file-icons/MappedDisposable",
 	"author": "John Gardner <gardnerjohng@gmail.com>",
 	"license": "ISC",
 	"engines": {
