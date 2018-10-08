@@ -1,7 +1,8 @@
 MappedDisposable
 ================
 
-[![Build status][CI-badge]][CI-link]
+[![Build status: TravisCI][TravisCI-badge]][TravisCI-link]
+[![Build status: AppVeyor][AppVeyor-badge]][AppVeyor-link]
 
 
 Map-flavoured alternative to Atom's [`CompositeDisposable`][] class. Intended for
@@ -203,5 +204,7 @@ Number of entries (key/disposable pairs) stored in the instance.
 [`TypeError`]:           https://mdn.io/TypeError
 [`event-kit`]:           https://npmjs.com/package/event-kit
 [`remove()`]:            #remove
-[CI-badge]:              https://travis-ci.org/file-icons/MappedDisposable.svg?branch=master
-[CI-link]:               https://travis-ci.org/file-icons/MappedDisposable
+[AppVeyor-badge]:        https://ci.appveyor.com/api/projects/status/o39i233c4u05gcle?svg=true
+[AppVeyor-link]:         https://ci.appveyor.com/project/Alhadis/mappeddisposable
+[TravisCI-badge]:        https://travis-ci.org/file-icons/MappedDisposable.svg?branch=master
+[TravisCI-link]:         https://travis-ci.org/file-icons/MappedDisposable
