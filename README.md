@@ -1,6 +1,9 @@
 MappedDisposable
 ================
 
+[![Build status][CI-badge]][CI-link]
+
+
 Map-flavoured alternative to Atom's [`CompositeDisposable`][] class. Intended for
 use in Atom package development, but compatible with any project that uses [`event-kit`][].
 
@@ -200,3 +203,5 @@ Number of entries (key/disposable pairs) stored in the instance.
 [`TypeError`]:           https://mdn.io/TypeError
 [`event-kit`]:           https://npmjs.com/package/event-kit
 [`remove()`]:            #remove
+[CI-badge]:              https://travis-ci.org/file-icons/MappedDisposable.svg?branch=master
+[CI-link]:               https://travis-ci.org/file-icons/MappedDisposable
