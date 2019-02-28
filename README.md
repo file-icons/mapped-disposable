@@ -205,6 +205,6 @@ Number of entries (key/disposable pairs) stored in the instance.
 [`event-kit`]:           https://npmjs.com/package/event-kit
 [`remove()`]:            #remove
 [AppVeyor-badge]:        https://ci.appveyor.com/api/projects/status/o39i233c4u05gcle?svg=true
-[AppVeyor-link]:         https://ci.appveyor.com/project/Alhadis/mappeddisposable
-[TravisCI-badge]:        https://travis-ci.org/file-icons/MappedDisposable.svg?branch=master
-[TravisCI-link]:         https://travis-ci.org/file-icons/MappedDisposable
+[AppVeyor-link]:         https://ci.appveyor.com/project/Alhadis/mapped-disposable
+[TravisCI-badge]:        https://travis-ci.org/file-icons/mapped-disposable.svg?branch=master
+[TravisCI-link]:         https://travis-ci.org/file-icons/mapped-disposable
