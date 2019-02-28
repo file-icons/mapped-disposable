@@ -6,10 +6,13 @@ This project adheres to [Semantic Versioning](http://semver.org).
 [Unpublished]: ../../compare/v1.0.3...HEAD
 
 
-[Unpublished]
+[v1.0.3]
 --------------------------------------------------------------------------------
-* Cleaned up module's dependencies lists
-* Switched URL of upstream repository to use lowercase-letters
+**March 1st, 2019**  
+* Cleaned up module's dependencies lists.
+* Switched URL of upstream repository to use lowercase-letters.
+
+[v1.0.3]: https://github.com/file-icons/mapped-disposable/releases/tag/v1.0.3
 
 
 
