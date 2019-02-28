@@ -15,7 +15,7 @@ describe("MappedDisposable", () => {
 		const map = new MappedDisposable([
 			[{name: "foo"}, disposable1],
 			[{name: "bar"}, disposable2],
-			[{name: "baz"}, disposable3]
+			[{name: "baz"}, disposable3],
 		]);
 		map.dispose();
 		expect(disposable1.disposed).to.be.true;
@@ -35,7 +35,7 @@ describe("MappedDisposable", () => {
 		const disposable2 = new CompositeDisposable();
 		const map = new MappedDisposable([
 			["foo", disposable1],
-			["bar", disposable2]
+			["bar", disposable2],
 		]);
 		expect(map.get("foo")).to.be.instanceof(CompositeDisposable);
 		expect(map.get("bar")).to.equal(disposable2);
@@ -164,7 +164,7 @@ describe("MappedDisposable", () => {
 	it("deletes all keys when disposed", () => {
 		const map = new MappedDisposable([
 			["foo", new Disposable()],
-			["bar", new Disposable()]
+			["bar", new Disposable()],
 		]);
 		expect(map.has("foo")).to.be.true;
 		expect(map.has("bar")).to.be.true;
