@@ -11,10 +11,12 @@
 		"atom": "*"
 	},
 	"atomTestRunner": "atom-mocha",
+	"dependencies": {
+		"event-kit": "^2.5.3"
+	},
 	"devDependencies": {
 		"@alhadis/eslint-config": "^1.2.0",
 		"atom-mocha": "^2.1.0",
-		"event-kit": "^2.5.3",
 		"eslint": "^5.14.1"
 	},
 	"eslintConfig": {
