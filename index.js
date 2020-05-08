@@ -1,9 +1,6 @@
 "use strict";
 
-const {CompositeDisposable, Disposable} = "object" === typeof atom
-	? require("atom")
-	: require("event-kit");
-
+const {CompositeDisposable, Disposable} = require("atom");
 
 /**
  * Map-flavoured alternative to Atom's {@link CompositeDisposable} class.
