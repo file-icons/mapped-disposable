@@ -1,7 +1,6 @@
 "use strict";
 
-const {CompositeDisposable, Disposable} = require("atom")   // use `require("event-kit");` in non-atom env.
-
+const {CompositeDisposable, Disposable} = require("atom");
 
 /**
  * Map-flavoured alternative to Atom's {@link CompositeDisposable} class.
