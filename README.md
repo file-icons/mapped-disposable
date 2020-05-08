@@ -5,8 +5,7 @@ MappedDisposable
 [![Build status: AppVeyor][AppVeyor-badge]][AppVeyor-link]
 
 
-Map-flavoured alternative to Atom's [`CompositeDisposable`][] class. Intended for
-use in Atom package development, but compatible with any project that uses [`event-kit`][].
+Map-flavoured alternative to Atom's [`CompositeDisposable`][] class.
 
 
 Usage
